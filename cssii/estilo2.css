@@ -1,0 +1,13 @@
+.banner{ width: 1024px;
+         height: 400px;
+         margin: 0 auto;
+         padding: 50px;
+         background-color: antiquewhite; 
+         background-image: url(../imagesii/afbc3d2a-6eba-4d4b-b637-b5b4e8969b3e.jpg);
+         background-size: cover;
+         display: flex;
+         justify-content: space-between;}
+.text-banner{margin-left: 50px;
+             color: aliceblue;}
+.img-banner{width: 500px;
+            height: 330px;}
