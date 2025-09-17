@@ -1,8 +1,7 @@
-.banner{ width: 1024px;
+.banner{ max-width: 1024px;
          height: 400px;
          margin: 0 auto;
          padding: 50px;
-         background-color: antiquewhite; 
          background-image: url(../imagesii/afbc3d2a-6eba-4d4b-b637-b5b4e8969b3e.jpg);
          background-size: cover;
          display: flex;
@@ -11,3 +10,8 @@
              color: aliceblue;}
 .img-banner{width: 500px;
             height: 330px;}
+@media screen and (max-width:1024px) {
+.banner{ flex-direction: column;}
+.text-banner{ padding-right: 50px;}   
+.img-banner{ max-width: 100%;}       
+                                      }
